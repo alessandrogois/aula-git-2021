@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+			integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+			crossorigin="anonymous"
+		/>
+
+		<title>Alessandro Gois</title>
+	</head>
+	<body>
+		<header>
+			<nav class="menu direito">
+				<img
+					src="https://i.pinimg.com/736x/c4/a7/0e/c4a70e0185c72b7db6f2584e410f58ee.jpg"
+					alt="Logo"
+					class="logo"
+				/>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="historia.html">Quem Sou</a></li>
+					<li><a href="galeria.html">Galeria</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="contact_form">
+			<div class="formulario">
+				<h1>Contate-nos</h1>
+				<h3>Envie-nos sua mensagem e respondemos em breve.</h3>
+
+				<form action="submit" method="post">
+					<p>
+						<label for="nome" class="nome">Nome </label>
+						<input
+							type="text"
+							name="nome"
+							id="nome"
+							required="obrigatorio"
+							placeholder="Nome Completo"
+						/>
+					</p>
+
+					<p>
+						<label for="email" class="email">Email </label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							required="obrigatorio"
+							placeholder="E-mail"
+						/>
+					</p>
+
+					<p>
+						<label for="telefone" class="telefone">Telefone </label>
+						<input
+							type="tel"
+							name="telefone"
+							id="telefone"
+							placeholder="O teu telefone"
+						/>
+					</p>
+
+					<p>
+						<label for="assunto" class="asunto">Assunto </label>
+						<input
+							type="text"
+							name="assunto"
+							id="assunto"
+							required="obrigatorio"
+							placeholder="Assunto"
+						/>
+					</p>
+
+					<p>
+						<label for="mensagem" class="mensagem">Mensagem </label>
+						<textarea
+							name="mensagem"
+							class="mensagem"
+							id="mensagem"
+							required="obrigatorio"
+							placeholder="Escreve sua mensagem aqui..."
+						></textarea>
+					</p>
+
+					<button type="submit" name="enviar" id="enviar">
+						<p>Enviar</p>
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer">
+				<h3 class="foot">
+					<a href="">Alessandro Gois </a>- Todos os direitos reservados
+				</h3>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
