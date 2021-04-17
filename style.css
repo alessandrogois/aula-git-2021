@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap');
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'Nanum Gothic', sans-serif;
+	background-image: url(img/index-background.png);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.menu-container {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	margin: 20px 5px;
+	height: 8vh;
+}
+.menu ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+.menu a {
+	text-decoration: none;
+	color: black;
+	padding: 1.5rem;
+	font-size: 25px;
+}
+
+.logo-menu {
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+	width: 100px;
+}
+.logo-menu a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
+	color: black;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 50px 50px;
+	height: 30vh;
+}
+
+.servicos {
+	display: flex;
+	margin-left: 50px;
+}
+
+footer {
+	top: 25vh;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
