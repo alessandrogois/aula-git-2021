@@ -1,89 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap');
 
-html,
 body {
-	font-family: 'Roboto', sans-serif;
+	width: 100vw;
+	height: 100vh;
 	margin: 0;
 	padding: 0;
-	height: 100%;
-}
-h1 {
-	font-size: 60px;
-	font-weight: 700;
-}
-h2 {
-	font-size: 32px;
-	font-weight: 300;
+	font-family: 'Nanum Gothic', sans-serif;
+	background-image: url(img/index-background.png);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: right;
 }
 
-.logo {
-	width: 80px;
+.menu-container {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	margin: 20px 5px;
+	height: 8vh;
 }
-
-.menu {
-	margin: ;
-}
-
 .menu ul {
-	float: right;
-	padding: 10px;
-	margin-top: 20px;
-}
-
-.menu ul li {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	list-style: none;
-	display: inline;
-	padding: 20px;
 }
-.menu ul li a {
+.menu a {
 	text-decoration: none;
-	color: darkgrey;
-	font-size: 24px;
+	color: black;
+	padding: 1.5rem;
+	font-size: 25px;
 }
 
-.menu ul li a:hover {
+.logo-menu {
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+	width: 100px;
+}
+.logo-menu a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
 	color: black;
 }
 
-.footer {
-	bottom: 0;
-	position: fixed;
-	width: 90%;
-	text-align: center;
-	color: darkgrey;
-	font-size: 14px;
-}
-.footer a {
-	text-decoration: none;
-	color: darkgrey;
-	font-size: 16px;
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 50px 50px;
+	height: 30vh;
 }
 
-.banner-topo {
-	width: 100vw;
-	height: 100%;
+.servicos {
+	display: flex;
+	margin-left: 50px;
+}
+
+footer {
+	top: 25vh;
+	display: flex;
+	justify-content: center;
 	position: relative;
 }
 
-.banner-topo img {
-	align-items: center;
-	width: 100%;
-	height: 70%;
-	overflow: hidden;
-}
-
-.banner-texto {
-	position: absolute;
-	align-items: center;
-	color: #fff;
-	text-align: center;
-	padding: 1rem;
-	border-radius: 15px;
-}
-
-.btn {
-	padding: 20px 50px;
-	border: 2px solid #fff;
-	width: 50%;
-	margin-left: auto;
+footer a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
